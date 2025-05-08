@@ -10,7 +10,7 @@ public class DataTypeCasting {
 		//System.out.println(a);
 		//System.out.print(a);
 		
-		
+		System.out.println(a);
 		short s2 = 136;
 		
 		byte b2 = (byte)s2;
@@ -29,11 +29,7 @@ public class DataTypeCasting {
 		int num = 1077;  
 		Integer objNum = Integer.valueOf(num);  // Convert int to Integer (wrapper)
 		System.out.println(objNum);
-		int i10 = 112;
-		//System.out.println(type(i10));
-		
-		Object myin = 77;
-		
+	
 	}
 
 
