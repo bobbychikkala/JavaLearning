@@ -9,7 +9,7 @@ public class Assignments {
 	public static void main(String[] args) {
 		
 		
-		//validNumber();
+		validNumber();
 		
 		printEvenNumbers(1,50);
 		
