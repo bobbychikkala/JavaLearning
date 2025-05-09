@@ -5,8 +5,8 @@ public class Problem1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int a = 100 ;
-		int b = 64 ;
+		int a = 25 ;
+		int b = 100 ;
 		System.out.printf("HCM of %d and %d is %d ",a,b,hCM(a,b));
 		System.out.println();
 		System.out.printf("LCM of %d and %d is %d ",a,b,lCM(a,b));
@@ -59,4 +59,6 @@ public class Problem1 {
 		return result ;			
 		
 	}
+
+	
 }
