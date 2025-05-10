@@ -7,5 +7,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/chikk/Downloads/selenium-server-4.32.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

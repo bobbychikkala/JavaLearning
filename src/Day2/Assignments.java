@@ -9,9 +9,10 @@ public class Assignments {
 	public static void main(String[] args) {
 		
 		
-		validNumber();
+		//validNumber();
 		
-		printEvenNumbers(1,50);
+		//printEvenNumbers(1,50);
+		printEvenNumbers(150,110);
 		
 		
 	}
@@ -43,10 +44,10 @@ public class Assignments {
 		}
 		while(smallNumber<=largeNumber) {
 
-			if(smallNumber%2==0)
-			{
-				System.out.println(smallNumber);
-			}
+			/*
+			 * if(smallNumber%2==0) { System.out.println(smallNumber); }
+			 */
+			System.out.println((smallNumber%2==00)? smallNumber :"" );
 			smallNumber++;
 		}
 

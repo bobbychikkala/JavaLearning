@@ -1,4 +1,8 @@
+
 package Day1;
+
+//import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.WebDriver;
 
 public class MyFirst {
 	
@@ -8,11 +12,8 @@ public class MyFirst {
 		// TODO Auto-generated method stub
 		
 		
-		int a = 10;
-		System.out.println(10);
-		
+		//ChromeDriver driver = new ChromeDriver();
 
 	
 	}
-
 }
