@@ -15,6 +15,7 @@ public class StringBuilderOperations {
 		System.out.println(sb.reverse());
 		System.out.println(sb.length());
 		
+		
 		String x = scanner.next();
 		
 		int number = Integer.parseInt(x);

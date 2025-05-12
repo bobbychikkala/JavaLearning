@@ -5,7 +5,7 @@ import java.util.Stack;
 public class PracticeStacksQuie {
 
 	public static void main	(String []args) {
-		System.out.println(0);
+		//System.out.println(0);
 		
 		Stack <String> stack = new Stack<String>();
 		
@@ -17,7 +17,8 @@ public class PracticeStacksQuie {
 		System.out.println(stack);
 		var name = stack.peek();
 		System.out.println(name);
-		stack.pop();
+		var removed = stack.pop();
+		System.out.println(removed);
 		System.out.println(stack);
 		 name = stack.peek();
 		System.out.println(name);
@@ -27,8 +28,7 @@ public class PracticeStacksQuie {
 		System.out.println(stack);
 		System.out.println(stack.size());
 		
-		DynamicArray dyanic = new DynamicArray();
-		System.out.println(dyanic);
+		
 	}
 	
 }
