@@ -1,7 +1,5 @@
 package Day2;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Assignments {
@@ -14,8 +12,7 @@ public class Assignments {
 		//validNumber();
 		
 		//printEvenNumbers(1,50);
-		List <Integer> list =printEvenNumbers(150,110);
-		System.out.println(list);
+		printEvenNumbers(150,110);
 		
 		
 	}
@@ -34,11 +31,10 @@ public class Assignments {
 		
 	}
 
-	static List<Integer> printEvenNumbers(int a, int b) 
+	static void printEvenNumbers(int a, int b) 
 	{	
 		int smallNumber =a ;
 		int largeNumber =b ;
-		ArrayList<Integer> list = new ArrayList<>();
 
 		if (a>b) 
 		{
@@ -48,14 +44,13 @@ public class Assignments {
 		}
 		while(smallNumber<=largeNumber) {
 
-			
-			  if(smallNumber%2==0)  list.add(smallNumber);
-			 
-			
-			//System.out.println((smallNumber%2==00)? smallNumber :"" );
+			/*
+			 * if(smallNumber%2==0) { System.out.println(smallNumber); }
+			 */
+			System.out.println((smallNumber%2==00)? smallNumber :"" );
 			smallNumber++;
 		}
 
-		return list ;
+
 	}
 }
