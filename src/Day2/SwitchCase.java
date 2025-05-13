@@ -6,7 +6,7 @@ public class SwitchCase {
 	{
 		String day = weekDay(7);
 		System.out.println(day);
-		System.out.println(monthName(1));
+		System.out.println(monthName(9));
 	}
 	
 	static String weekDay(int dayNumber) 

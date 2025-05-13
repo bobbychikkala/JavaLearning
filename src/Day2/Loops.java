@@ -4,16 +4,16 @@ public class Loops {
 
 	public static void main(final String[] args) {
 		// TODO Auto-generated method stub
-		table(6);
+		reverseTable(9);
 
 	}
 
 
 
-	static void table(final int inputNumber) {
+	static void reverseTable(final int inputNumber) {
 
 		
-		for(int i=1;i<=10;i++)
+		for(int i=10;i>0;i--)
 		{
 			System.out.println(String.format("%d  * %d = %d ",i,inputNumber,i*inputNumber));
 			
