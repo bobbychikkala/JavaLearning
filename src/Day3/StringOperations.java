@@ -1,5 +1,8 @@
 package Day3;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class StringOperations {
 
@@ -22,9 +25,11 @@ public class StringOperations {
 			reverse+=string.charAt(i);
 		}
 		
-		System.out.println(reverse);
+		//System.out.println(reverse);
 		
 		System.out.println(isPolidram("Madam"));
+		
+		System.out.println(reverseWords("Hello Java Program"));
 
 	}
 	
@@ -35,6 +40,7 @@ public class StringOperations {
 		for (int i=input.length()-1;i>=0;i--) {
 			
 			reverse += input.charAt(i);
+			
 		}
 		
 		return input.equals(reverse);
@@ -42,4 +48,17 @@ public class StringOperations {
 	}
 	
 
+	private static String reverseWords(String input) {
+		
+		String []words = input.split(" ");
+		List <String> wordList = Arrays.asList(words);
+		
+		Collections.reverse(wordList);
+		
+		return String.join(" ", wordList);
+		
+		
+		
+	}
+	
 }
