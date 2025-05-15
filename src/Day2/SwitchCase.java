@@ -71,7 +71,6 @@ static String monthName(int MonthNumber)
 	case 12 :
 		return "December";
 	default:
-		System.out.println("Invalid number");
 		return "Invalid number" ;
 	
 	}
