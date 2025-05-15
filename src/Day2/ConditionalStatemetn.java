@@ -6,8 +6,6 @@ public class ConditionalStatemetn {
 		
 		//short age = 17;
 		
-		
-		
 		String studenGrade = grading(9);
 		System.out.println(studenGrade);
 	}

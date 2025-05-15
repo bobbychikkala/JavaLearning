@@ -32,7 +32,7 @@ public class SwitchCase {
 			return "Saturday";
 		default:
 			System.out.println("Invalid number");
-			return "Invalid number" ;
+			return "Invalid number";
 		
 		}
 		

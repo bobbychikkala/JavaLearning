@@ -4,8 +4,6 @@ public class Book {
 	
 	String author ;
 	double price ;
-	
-	
 	//Parameter constructor
 	public Book(String author,double price)
 	{

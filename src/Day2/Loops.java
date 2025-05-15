@@ -3,7 +3,7 @@ package Day2;
 public class Loops {
 
 	public static void main(final String[] args) {
-		// TODO Auto-generated method stub
+		
 		reverseTable(9);
 
 	}
