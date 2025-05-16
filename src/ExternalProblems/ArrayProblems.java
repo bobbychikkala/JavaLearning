@@ -5,19 +5,13 @@ import java.util.Scanner;
 public class ArrayProblems {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub	
 		ArrayProblems ob =new ArrayProblems();
 		//ob.signleDimenArray();
 		ob.twoDimenArray();
-
-	}
-	
-	private void signleDimenArray() {
-		
-		
-		int [] a =  new int [100];
-		
+	}	
+	private void signleDimenArray() {		
+		int [] a =  new int [100];		
 		for (int i=0 ; i<a.length;i++)a[i]=2*i ;
 		for (int j:a)System.out.println(j);
 	}
@@ -29,13 +23,10 @@ public class ArrayProblems {
 		println("Enter the number of columns");
 		int col = scanner.nextInt();
 		int [][] a = new int [row][col] ;
-		//System.out.print(a.length);
-		
+		//System.out.print(a.length);		
 		int v=0;
 		for(int r=0; r<a.length ;r++) {
-			
-			for(int c=0; c<a[r].length;c++) {
-				
+			for(int c=0; c<a[r].length;c++) {		
 				a[r][c]=++v ;
 				print(a[r][c]+"  ");
 			}
