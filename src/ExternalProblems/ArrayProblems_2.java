@@ -18,12 +18,13 @@ public class ArrayProblems_2 {
 		
 		int start=0 ;
 		int end = a.length-1 ;
-		int temp ;
+		
 		while(start<end) {
-			temp = a[start];
-			a[start]=a[end];
-			a[end]= temp ;
-			start++;
+			
+			a[start]=a[start]+a[end];
+			a[end]=a[start]-a[end];
+			a[start]=a[start]-a[end];		
+			start++ ;
 			end-- ;
 			
 		}
