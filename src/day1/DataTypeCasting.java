@@ -1,4 +1,4 @@
-package Day1;
+package day1;
 
 public class DataTypeCasting {
 	Object myin = 77;

@@ -1,4 +1,4 @@
-package Day3;
+package day3;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -44,7 +44,6 @@ public class StringOperations {
 	}
 	
 	private static String reversWords1(String input) {
-		
 		ArrayList <String> words = new ArrayList();
 		String temp="";
 		input=input+"  " ;	

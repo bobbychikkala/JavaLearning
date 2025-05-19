@@ -1,4 +1,4 @@
-package ExternalProblems;
+package externalProblems;
 
 public class Day5 {
 

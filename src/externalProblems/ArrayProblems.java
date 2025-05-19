@@ -1,4 +1,4 @@
-package ExternalProblems;
+package externalProblems;
 
 import java.util.Scanner;
 
@@ -7,9 +7,10 @@ public class ArrayProblems {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub	
 		ArrayProblems ob =new ArrayProblems();
-		//ob.signleDimenArray();
+		ob.signleDimenArray();
 		ob.twoDimenArray();
 	}	
+	@SuppressWarnings("unused")
 	private void signleDimenArray() {		
 		int [] a =  new int [100];		
 		for (int i=0 ; i<a.length;i++)a[i]=2*i ;

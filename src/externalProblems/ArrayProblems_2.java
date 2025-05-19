@@ -1,4 +1,4 @@
-package ExternalProblems;
+package externalProblems;
 
 import java.util.Arrays;
 
