@@ -13,6 +13,13 @@ public class CallAnimalas {
 		Dolphins dolphin = new Dolphins();
 		dolphin.makesound();
 		dolphin.swim();
+		
+		Duck duck =new Duck();
+		duck.makesound();
+		duck.fly();
+		duck.swim();
+		
+		
 	}
 
 }
