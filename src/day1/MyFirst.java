@@ -5,15 +5,15 @@ package day1;
 //import org.openqa.selenium.WebDriver;
 
 public class MyFirst {
-	
 
-	
+
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		
+
+
 		//ChromeDriver driver = new ChromeDriver();
 
-	
+
 	}
 }

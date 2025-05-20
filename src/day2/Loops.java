@@ -12,11 +12,11 @@ public class Loops {
 
 	static void reverseTable(final int inputNumber) {
 
-		
+
 		for(int i=10;i>0;i--)
 		{
 			System.out.println(String.format("%d  * %d = %d ",i,inputNumber,i*inputNumber));
-			
+
 		}
 	}
 }

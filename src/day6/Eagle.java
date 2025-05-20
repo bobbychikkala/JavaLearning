@@ -2,12 +2,11 @@ package day6;
 
 public class Eagle extends Animal implements Flyable {
 
-	
-	public void makesound() {
+
+	@Override
+	public void fly() {
 		// TODO Auto-generated method stub
-		System.out.println(getClassName()+" Makes sound");
-		
-		
+		System.out.println(getClassName()+ " can fly");
 	}
 
 
@@ -15,14 +14,17 @@ public class Eagle extends Animal implements Flyable {
 		return this.getClass().getSimpleName();
 	}
 
-	
-	public void fly() {
+
+	@Override
+	public void makesound() {
 		// TODO Auto-generated method stub
-		System.out.println(getClassName()+ " can fly");
+		System.out.println(getClassName()+" Makes sound");
+
+
 	}
-	
-	
-	
+
+
+
 	}
 
 
