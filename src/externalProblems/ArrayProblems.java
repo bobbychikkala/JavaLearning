@@ -17,6 +17,7 @@ public class ArrayProblems {
 		for (int j:a)System.out.println(j);
 	}
 	
+	@SuppressWarnings("resource")
 	private void twoDimenArray() {
 		Scanner scanner = new Scanner(System.in);	
 		println("Enter the number of rows");
