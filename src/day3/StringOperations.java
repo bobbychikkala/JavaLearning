@@ -20,12 +20,14 @@ public class StringOperations {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String string = "Hello Wolrd !";
-
+		String string = "Hello Java Program";
 		System.out.println(isPolidram("Madam"));
-
-		System.out.println(reversWords1("Hello Java Program"));
-		System.out.println(reverseWords("Hello Java Program"));
+		System.out.println(reversWords1(string));
+		//System.out.println(string);
+		System.out.println(reverseWords(string));
+		System.out.println(string);
+		reverseString(string);
+		System.out.println(string);
 	}
 
 
@@ -33,15 +35,8 @@ public class StringOperations {
 
 		String []words = input.split(" ");
 		List <String> wordList = Arrays.asList(words);
-
-
-
 		Collections.reverse(wordList);
-
 		return String.join(" ", wordList);
-
-
-
 	}
 
 	private static String reversWords1(String input) {
@@ -58,10 +53,22 @@ public class StringOperations {
 		}
 		String result="";
 		for(var a:words) result=a+" "+result ;
-
-
 		return result;
 
+	}
+	
+	
+	private static String reverseString(String input) {
+		
+		char [] wordarray = input.toCharArray();		
+		char temp=' ';
+		for (int i=0;i<wordarray.length/2-1;i++) {
+			temp =wordarray[i];
+			wordarray[i] = wordarray[wordarray.length-1-i];
+			wordarray[wordarray.length-1-i]=temp;
+		}
+		return Arrays.toString(wordarray);
+		
 	}
 
 
