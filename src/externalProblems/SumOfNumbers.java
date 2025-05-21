@@ -11,6 +11,7 @@ public class SumOfNumbers {
 	
 	private static int sumOfNumber() {
 		int result =0;
+		@SuppressWarnings("resource")
 		Scanner sc= new Scanner(System.in);
 		String  input ;
 		while(true) {
