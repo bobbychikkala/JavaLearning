@@ -11,6 +11,10 @@ public class Array_Problems_3 {
 
 		reverseArray(a);
 		System.out.println(Arrays.toString(a));
+		
+		String [] s = {"Ajby","Ajayk"};
+		
+		System.out.println(s[1].compareTo(s[0])<0);
 
 
 
