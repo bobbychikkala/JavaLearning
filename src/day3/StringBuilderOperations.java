@@ -9,7 +9,7 @@ public class StringBuilderOperations {
 
 		String string = "Welcome to the JAVA Programming";
 
-
+		
 		StringBuilder sb = new StringBuilder(string);
 		System.out.println(sb);
 		System.out.println(sb.reverse());

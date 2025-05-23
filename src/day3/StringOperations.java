@@ -21,7 +21,7 @@ public class StringOperations {
 		// TODO Auto-generated method stub
 
 		String string = "Hello Java Program";
-		System.out.println(isPolidram("Madam"));
+		System.out.println(isPolidram("MadaK"));
 		System.out.println(reversWords1(string));
 		//System.out.println(string);
 		System.out.println(reverseWords(string));
