@@ -19,8 +19,7 @@ public class FindNonRepeatChar {
 			if (isVisited[i]) continue;
 			int counter =1 ;
 			for(int j=i+1;j<strAr.length;j++) {
-				if(strAr[i]==strAr[j]) {
-					
+				if(strAr[i]==strAr[j]) {	
 					isVisited[j]=true;
 					counter++;
 				}

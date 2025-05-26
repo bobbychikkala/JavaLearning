@@ -5,8 +5,10 @@ public class StringMethods {
 	
 	public static void main(String []args) {
 		
-		String name = "Kobby" ;
+		String name = "Bobby" ;
 		
-		System.out.println(name.compareTo("Kumar9")<0);
+	String	s= name.replace("b", "B");
+	s.toLowerCase();
+		System.out.println(s);
 	}
 }
