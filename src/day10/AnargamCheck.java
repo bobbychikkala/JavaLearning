@@ -7,6 +7,7 @@ public class AnargamCheck {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		System.out.println(isAnargam("silent","listem"));
 	}
 
 	static boolean isAnargam(String str1,String str2) {

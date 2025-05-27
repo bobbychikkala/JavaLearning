@@ -33,11 +33,7 @@ public class HashMapDemo {
 				map.put(a, 1);
 				continue ;
 			}
-			
-			int value =map.get(a)+1;
-			map.put(a,value );
-			
-			
+			map.put(a,map.get(a)+1 );				
 		}
 		
 		for(var key:map.keySet()) {
@@ -46,6 +42,6 @@ public class HashMapDemo {
 		}
 		
 		return map;
-	}
+	} 
 
 }
