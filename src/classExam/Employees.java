@@ -16,7 +16,7 @@ public class Employees {
 			
 			emps[e] = new EmployeDetails();
 			//int empID = settingEmpId(e);
-			emps[e].setEmpId(empID);
+			//emps[e].setEmpId(empID);
 			String fullName =settingName(e);
 			emps[e].setFullName(fullName);
 		}
