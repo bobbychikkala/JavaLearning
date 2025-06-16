@@ -9,15 +9,12 @@ public class HashSetDemo {
 
 	public static void main(String[] args) {
 		
-		HashSet a = new HashSet();
-	
-		
 		List<Integer> list = Arrays.asList(1,2,4,5,6,4,3);
 		
-		HashSet <Integer> b = new HashSet(list);
+		HashSet <Integer> b = new HashSet<Integer>(list);
 		
 		System.out.println(b);
-		list = new ArrayList(b);
+		list = new ArrayList<Integer>(b);
 		System.out.println(list);
 
 	}

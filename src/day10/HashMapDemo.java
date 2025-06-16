@@ -8,7 +8,8 @@ public class HashMapDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ArrayList<Integer> list = new ArrayList<Integer> () {{
+		 ArrayList<Integer> list = new ArrayList<Integer>()
+		 {{
 			add(5);
 			add(3);
 			add(4);

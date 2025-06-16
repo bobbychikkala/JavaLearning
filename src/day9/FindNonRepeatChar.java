@@ -7,7 +7,7 @@ public class FindNonRepeatChar {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println(nonRepeatChar("bobbyKomarykm"));
+		System.out.println(nonRepeatChar("bobbyKomarykma"));
 	}
 	
 	static char nonRepeatChar(String str) {
@@ -25,12 +25,12 @@ public class FindNonRepeatChar {
 				}
 			}
 			if(counter<=1) 
-			charList.add(strAr[i]);
+			return(strAr[i]);
 			
 		}
 		
 		
-		return charList.get(0) ;
+		return ' ' ;
 	}
 
 }

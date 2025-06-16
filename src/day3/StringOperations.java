@@ -52,7 +52,7 @@ public class StringOperations {
 			else temp+=input.charAt(i);
 		}
 		String result="";
-		for(var a:words) result=a+" "+result ;
+		for(var a:words) result=a+' '+result ;
 		return result;
 
 	}
