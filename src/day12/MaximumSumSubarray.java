@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class MaximumSumSubarray {
 	public static void main(String[]args) {
-		int []a = {-2, -5, 6, -2, -3, 1, 5, -6};
+		int []a = new int []  {-2, -5, -6, -2, -3, 1, 5, -6};
 		System.err.println(solution(a));
 	}
 

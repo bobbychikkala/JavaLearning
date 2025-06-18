@@ -1,8 +1,11 @@
 package day12;
-
+/*
+ *Removing the repeated consecutive character from string 
+ * 
+ */
 public class RemoveRepeatativeCharacter {
 	public static void main(String[] args) {
-		String input = "bobbyyy  kummar";
+		String input = "bobbyyy  kummayyr";
 		String result = removeRepeatChar(input);
 		System.out.println(result);
 	}
