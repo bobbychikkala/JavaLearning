@@ -9,17 +9,17 @@ public class RemoveRepeatativeCharacter {
 
 	private static String removeRepeatChar(String input) {
 		// TODO Auto-generated method stub
-		char[]charArray =input.toCharArray();
 		
-		char temp = charArray[0];
-		String result =""+temp;
-		for (int i=1;i<charArray.length;i++) {
+		
+		char temp = input.charAt(0);
+		String result =""+input.charAt(0);
+		for (int i=1;i<input.length();i++) {
 			
-			if(charArray[i]==temp) {
+			if(input.charAt(i)==temp) {
 				continue;
 			}
-			result = result+ charArray[i];
-			temp =charArray[i];
+			result = result+ input.charAt(i);
+			temp = input.charAt(i);
 		}
 		
 		return result;
